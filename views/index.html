@@ -17,7 +17,7 @@
     <header class="">
       <h1 class="title">Media Queries</h1>
       <nav class="">
-        <ul class="dis-flex-column list">
+        <ul class="dis-flex-row list">
           <li class="list-item"><a href="#responsive">Responsive Design</a></li>
           <li class="list-item"><a href="#breakpoints">Breakpoints</a></li>
           <li class="list-item"><a href="#media">Media Queries</a></li>
@@ -28,15 +28,73 @@
     </header>
     <main class="">
       <section id="responsive" class="background-light-color">
-        <h2>s</h2>
+        <h2>Responsive Design</h2>
+        <p>
+          Es los que hace que una pagina web se vea correctamente
+          independientemente del dispositivo desde el que se visualiza.
+        </p>
       </section>
       <section id="breakpoints" class="background-dark-color">
-
-    </section>
-      <section id="media" class="background-light-color">
-
-    </section>
-
+        <h2>Breakpoints</h2>
+        <p>
+          Es un momento donde la pagina web cambia. Deben servir como referencia
+          para crear nuevos breakpoints según lo necesite.
+        </p>
+        <h3>Breakpoints de Resolución</h3>
+        <p>
+          Se tiene en cuenta el ancho de <strong>pixeles</strong> del
+          dispositivo.
+        </p>
+        <div class="dis-flex-row breakpoint-resolution">
+          <div class="breakpoint-resolution-item">
+            <h4><u>Básicos</u></h4>
+            <img
+              src="../assets/img/bp-resolucion-basicos.webp"
+              alt="Breakpoints de resolución básicos"
+            />
+          </div>
+          <div class="breakpoint-resolution-item">
+            <h4><u>Completos</u></h4>
+            <img
+              src="../assets/img/bp-resolucion-completo.webp"
+              alt="Breakpoints de resolución completos"
+            />
+          </div>
+          <div class="breakpoint-resolution-item">
+            <h4><u>Personalizados</u></h4>
+            <p>
+              Es cuando el diseño | maquetación de una pagina web se rompe en un
+              pixel concreto.
+            </p>
+            <p>Recomendaciones:</p>
+            <ul>
+              <li>
+                Revisar Google Analytics de la web, para saber que dispositivos
+                usan más al visitar la pagina
+              </li>
+              <li>
+                Revisar <a href="https://statcounter.com/">Stat Counter</a>,
+                pagina que te indica los dispositivos más usados de determinado
+                país.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3>Breakpoints de Dispositivo</h3>
+        <p>Se tiene en cuenta el comportamiento del propio dispositivo.</p>
+        <ul>
+          <li>Orientación</li>
+          <li>Modo Oscuro</li>
+          <li>Pantalla de impresión (No se usa)</li>
+        </ul>
+        <h3>¿Dónde se usan?</h3>
+        <p>Los breakpoints se usan en dos lugares:</p>
+        <ul>
+          <li>HTML: en el atributo media=""</li>
+          <li>CSS: en la regla @media</li>
+        </ul>
+      </section>
+      <section id="media" class="background-light-color"></section>
     </main>
     <footer class="">
       <p class="copyright">Copyright &copy; MediaQ.</p>
