@@ -90,11 +90,59 @@
         <h3>¿Dónde se usan?</h3>
         <p>Los breakpoints se usan en dos lugares:</p>
         <ul>
-          <li>HTML: en el atributo media=""</li>
-          <li>CSS: en la regla @media</li>
+          <li>
+            <abbr title="Hyper Text Markup Language">HTML</abbr>: en el atributo
+            media=""
+          </li>
+          <li>
+            <abbr title="Cascading Style Sheets">CSS</abbr>: en la regla @media
+          </li>
         </ul>
       </section>
-      <section id="media" class="background-light-color"></section>
+      <section id="media" class="background-light-color">
+        <h2>Media Queries</h2>
+        <p>
+          Declaración de <abbr title="Cascading Style Sheets">CSS</abbr> que
+          define mediante breakpoints en qué pixeles se cambiara las propiedades
+          de un elemento.
+        </p>
+
+        <div class="dis-flex-row syntax">
+          <div class="syntax-item">
+            <h3>Sintaxis</h3>
+            <ul>
+              <li>
+                <strong>Keyword:</strong> <span class="color-red">@media</span>
+              </li>
+              <li>
+                <strong>Media Type:</strong>
+                <span class="color-green">screen</span>
+              </li>
+              <li>
+                <strong>Operador:</strong>
+                <span class="color-blue">and|or|not</span>
+              </li>
+              <li>
+                <strong>Breakpoint | Media Feature:</strong>
+                <span class="color-orange">(max-width:480px)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="syntax-item">
+            <div class="card-code">
+              <code>
+                <span class="color-red">@media</span>
+                <span class="color-green">screen</span>
+                <span class="color-blue">and|or|not</span>
+                <span class="color-orange">(max-width:480px)</span> {
+                <br />
+                <br />
+                }
+              </code>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="">
       <p class="copyright">Copyright &copy; MediaQ.</p>

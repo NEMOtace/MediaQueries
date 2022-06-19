@@ -4,7 +4,7 @@
   --secondary-color: #c9ada7;
   --primary-color-text: #f2e9e4;
   --secondary-color-text: #1d1d32;
-  /*  --box-color: #9a8c98; */
+  --card-color: #9a8c98;
 }
 /* Custom Tag */
 
@@ -89,7 +89,7 @@ a {
 
 .breakpoint-resolution-item{
     max-width: 100%;
-    width: 35rem;
+    width: 32.5rem;
 }
 
 img{
@@ -101,6 +101,38 @@ img{
     color: var(--secondary-color);
     font-weight: bold;
     text-decoration: underline;
+}
+
+.color-red{
+    background-color: rgb(233, 112, 112);
+}
+
+.color-blue{
+    background-color: #4d79d1;
+}
+
+.color-green{
+    background-color: rgb(67, 167, 112);
+}
+
+.color-orange{
+    background-color: rgb(238, 158, 66);
+}
+
+.syntax{
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.syntax-item {
+    max-width: 100%;
+}
+
+.card-code{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: .5rem;
 }
 
 /*  */
