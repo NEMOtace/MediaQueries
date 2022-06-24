@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #22223b;
+    --secondary-color: #c9ada7;
+    --primary-color-text: #f2e9e4;
+    --secondary-color-text: #1d1d32;
+    --card-color: #9a8c98;
+}
+
+.header {
+}
+.header__title {
+}
+.header__nav {
+}
+.header__ul {
+}
+.ul__li {
+}
+.main {
+}
+.main__article {
+}
+.article__title {
+}
+.footer {
+}
+.footer__copyright {
+}
